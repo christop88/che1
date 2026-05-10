@@ -58,9 +58,9 @@ actors:
     queue_size: 4
 
 event_bus:
-  max_iter: 2
+  max_iter: 3
   task_deadline_s: 3600
-  score_threshold: 0.65
+  score_threshold: 0.7
 
 js_checker:
   execution_timeout_ms: 5000
